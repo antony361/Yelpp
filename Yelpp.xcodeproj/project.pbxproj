@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		604B0E06F325EF365A7A10C4 /* Pods_YelppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C6CC8749677B2C0E496E95 /* Pods_YelppTests.framework */; };
+		C34F2EEF66204A319EFAA9E0 /* Pods_Yelpp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194C1F0055CE4D01B638634A /* Pods_Yelpp.framework */; };
+		CA0C5DE2A1A8E1BD57ADBA87 /* Pods_Yelpp_YelppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6468930E6BEBBC0F998480E /* Pods_Yelpp_YelppUITests.framework */; };
 		CD25662527C4B8FA008CB784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25662427C4B8FA008CB784 /* AppDelegate.swift */; };
 		CD25662727C4B8FA008CB784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25662627C4B8FA008CB784 /* SceneDelegate.swift */; };
 		CD25662927C4B8FA008CB784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25662827C4B8FA008CB784 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 		CD25663C27C4B8FB008CB784 /* YelppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25663B27C4B8FB008CB784 /* YelppTests.swift */; };
 		CD25664627C4B8FB008CB784 /* YelppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25664527C4B8FB008CB784 /* YelppUITests.swift */; };
 		CD25664827C4B8FB008CB784 /* YelppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25664727C4B8FB008CB784 /* YelppUITestsLaunchTests.swift */; };
+		CD25665527C4BBEB008CB784 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD25665427C4BBEB008CB784 /* RestaurantTableViewCell.swift */; };
+		CD77654D27C4BEB2006AB33C /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77654C27C4BEB2006AB33C /* RestaurantService.swift */; };
+		CD77654F27C4BF35006AB33C /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77654E27C4BF35006AB33C /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0039E9306BF9B1B26EB7DBBD /* Pods-Yelpp-YelppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelpp-YelppUITests.release.xcconfig"; path = "Target Support Files/Pods-Yelpp-YelppUITests/Pods-Yelpp-YelppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		194C1F0055CE4D01B638634A /* Pods_Yelpp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelpp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C6CC8749677B2C0E496E95 /* Pods_YelppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C66EA68ECCD57FE7CA086 /* Pods-Yelpp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelpp.release.xcconfig"; path = "Target Support Files/Pods-Yelpp/Pods-Yelpp.release.xcconfig"; sourceTree = "<group>"; };
+		9B41C142BD0F7254FFA311C0 /* Pods-Yelpp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelpp.debug.xcconfig"; path = "Target Support Files/Pods-Yelpp/Pods-Yelpp.debug.xcconfig"; sourceTree = "<group>"; };
+		BAADBA0FBB22F508BC1183A9 /* Pods-Yelpp-YelppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelpp-YelppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yelpp-YelppUITests/Pods-Yelpp-YelppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C11DFD15EEED8DFFE3DAE3EA /* Pods-YelppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelppTests.debug.xcconfig"; path = "Target Support Files/Pods-YelppTests/Pods-YelppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD25662127C4B8FA008CB784 /* Yelpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD25662427C4B8FA008CB784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD25662627C4B8FA008CB784 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,11 @@
 		CD25664127C4B8FB008CB784 /* YelppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD25664527C4B8FB008CB784 /* YelppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelppUITests.swift; sourceTree = "<group>"; };
 		CD25664727C4B8FB008CB784 /* YelppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD25665427C4BBEB008CB784 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		CD77654C27C4BEB2006AB33C /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
+		CD77654E27C4BF35006AB33C /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		E6468930E6BEBBC0F998480E /* Pods_Yelpp_YelppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yelpp_YelppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96806DC8C661906CFA0078F /* Pods-YelppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelppTests.release.xcconfig"; path = "Target Support Files/Pods-YelppTests/Pods-YelppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34F2EEF66204A319EFAA9E0 /* Pods_Yelpp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604B0E06F325EF365A7A10C4 /* Pods_YelppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0C5DE2A1A8E1BD57ADBA87 /* Pods_Yelpp_YelppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				CD25663A27C4B8FB008CB784 /* YelppTests */,
 				CD25664427C4B8FB008CB784 /* YelppUITests */,
 				CD25662227C4B8FA008CB784 /* Products */,
+				FDF821F668F2B2F220F87136 /* Pods */,
+				F99F638666BB5188CBE0AA75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +123,11 @@
 			isa = PBXGroup;
 			children = (
 				CD25662427C4B8FA008CB784 /* AppDelegate.swift */,
+				CD77654C27C4BEB2006AB33C /* RestaurantService.swift */,
+				CD77654E27C4BF35006AB33C /* Restaurant.swift */,
 				CD25662627C4B8FA008CB784 /* SceneDelegate.swift */,
 				CD25662827C4B8FA008CB784 /* ViewController.swift */,
+				CD25665427C4BBEB008CB784 /* RestaurantTableViewCell.swift */,
 				CD25662A27C4B8FA008CB784 /* Main.storyboard */,
 				CD25662D27C4B8FB008CB784 /* Assets.xcassets */,
 				CD25662F27C4B8FB008CB784 /* LaunchScreen.storyboard */,
@@ -127,6 +153,29 @@
 			path = YelppUITests;
 			sourceTree = "<group>";
 		};
+		F99F638666BB5188CBE0AA75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194C1F0055CE4D01B638634A /* Pods_Yelpp.framework */,
+				E6468930E6BEBBC0F998480E /* Pods_Yelpp_YelppUITests.framework */,
+				34C6CC8749677B2C0E496E95 /* Pods_YelppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF821F668F2B2F220F87136 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B41C142BD0F7254FFA311C0 /* Pods-Yelpp.debug.xcconfig */,
+				3E4C66EA68ECCD57FE7CA086 /* Pods-Yelpp.release.xcconfig */,
+				BAADBA0FBB22F508BC1183A9 /* Pods-Yelpp-YelppUITests.debug.xcconfig */,
+				0039E9306BF9B1B26EB7DBBD /* Pods-Yelpp-YelppUITests.release.xcconfig */,
+				C11DFD15EEED8DFFE3DAE3EA /* Pods-YelppTests.debug.xcconfig */,
+				E96806DC8C661906CFA0078F /* Pods-YelppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD25664B27C4B8FB008CB784 /* Build configuration list for PBXNativeTarget "Yelpp" */;
 			buildPhases = (
+				6980A4318CBC3676D46383DB /* [CP] Check Pods Manifest.lock */,
 				CD25661D27C4B8FA008CB784 /* Sources */,
 				CD25661E27C4B8FA008CB784 /* Frameworks */,
 				CD25661F27C4B8FA008CB784 /* Resources */,
+				5755A6AD5BA7B2B478F5A4BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD25664E27C4B8FB008CB784 /* Build configuration list for PBXNativeTarget "YelppTests" */;
 			buildPhases = (
+				D136059FA926EFF9F60134D9 /* [CP] Check Pods Manifest.lock */,
 				CD25663327C4B8FB008CB784 /* Sources */,
 				CD25663427C4B8FB008CB784 /* Frameworks */,
 				CD25663527C4B8FB008CB784 /* Resources */,
@@ -169,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD25665127C4B8FB008CB784 /* Build configuration list for PBXNativeTarget "YelppUITests" */;
 			buildPhases = (
+				78E953228803E26D84EFB812 /* [CP] Check Pods Manifest.lock */,
 				CD25663D27C4B8FB008CB784 /* Sources */,
 				CD25663E27C4B8FB008CB784 /* Frameworks */,
 				CD25663F27C4B8FB008CB784 /* Resources */,
+				51CCBEC3806F79C9575D68AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +307,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51CCBEC3806F79C9575D68AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yelpp-YelppUITests/Pods-Yelpp-YelppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yelpp-YelppUITests/Pods-Yelpp-YelppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yelpp-YelppUITests/Pods-Yelpp-YelppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5755A6AD5BA7B2B478F5A4BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yelpp/Pods-Yelpp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yelpp/Pods-Yelpp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yelpp/Pods-Yelpp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6980A4318CBC3676D46383DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yelpp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E953228803E26D84EFB812 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yelpp-YelppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D136059FA926EFF9F60134D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YelppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD25661D27C4B8FA008CB784 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD25665527C4BBEB008CB784 /* RestaurantTableViewCell.swift in Sources */,
 				CD25662927C4B8FA008CB784 /* ViewController.swift in Sources */,
+				CD77654F27C4BF35006AB33C /* Restaurant.swift in Sources */,
 				CD25662527C4B8FA008CB784 /* AppDelegate.swift in Sources */,
+				CD77654D27C4BEB2006AB33C /* RestaurantService.swift in Sources */,
 				CD25662727C4B8FA008CB784 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,11 +594,13 @@
 		};
 		CD25664C27C4B8FB008CB784 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B41C142BD0F7254FFA311C0 /* Pods-Yelpp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R929ZACJBD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Yelpp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -446,6 +608,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,11 +624,13 @@
 		};
 		CD25664D27C4B8FB008CB784 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4C66EA68ECCD57FE7CA086 /* Pods-Yelpp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R929ZACJBD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Yelpp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -473,6 +638,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +654,7 @@
 		};
 		CD25664F27C4B8FB008CB784 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11DFD15EEED8DFFE3DAE3EA /* Pods-YelppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +674,7 @@
 		};
 		CD25665027C4B8FB008CB784 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96806DC8C661906CFA0078F /* Pods-YelppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +694,7 @@
 		};
 		CD25665227C4B8FB008CB784 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAADBA0FBB22F508BC1183A9 /* Pods-Yelpp-YelppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +712,7 @@
 		};
 		CD25665327C4B8FB008CB784 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0039E9306BF9B1B26EB7DBBD /* Pods-Yelpp-YelppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
